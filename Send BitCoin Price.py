@@ -7,7 +7,7 @@ import threading
 
 def send_mail(message):
     receiver_emails_list = ['receiver1@gmail.com', 'receiver2@gmail.com']
-    sender_email = 'koosha53@gmail.com'
+    sender_email = 'yourEmail@gmail.com'
     server = SMTP('smtp.gmail.com', 25)
     server.starttls()
     server.login(sender_email, 'yourPassword')
